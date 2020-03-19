@@ -4,6 +4,7 @@ interest set('听音乐','看电影','购物','旅游','游泳','游戏')
 );
 insert into person values('男','看电影,游泳,听音乐');
 set sql_mode = 'strict_trans_tables';
+select * from person;
 insert into person values('女','电影,游泳,听音乐');
 set sql_mode = 'ansi';
 select * from person;
